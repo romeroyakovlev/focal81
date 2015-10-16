@@ -17,7 +17,7 @@ void	popdo ARG((void));
 void	popfor ARG((void));
 void	clearfors ARG((struct sym *sp));
 void	inject ARG((int c));
-int	getline ARG((char *cp, FILE *fp));
+int	get_line ARG((char *cp, FILE *fp));
 void	type ARG((void));
 void	save ARG((struct lno *lnop, FILE *fp));
 void	erasesyms ARG((void));
